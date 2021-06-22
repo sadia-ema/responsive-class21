@@ -1,0 +1,257 @@
+/* default */
+html{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
+.fixed-width    {
+    width: 1200px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left{
+   text-align: left;
+}
+
+/* header */
+
+.header{
+background: #22C3A3;
+}
+.header .logo{
+    float: left;
+    width: 30%
+   
+}
+.logo h3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 13px;
+}
+.menu{
+    float: right;
+    width: 70%;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    padding: 0 20px;
+  
+    display: block;
+    transition: .5s;
+    font-family: 'Roboto', sans-serif;
+}
+.menu ul li a:hover{
+    background: #086452;
+}
+/* banner */
+.banner{
+    background: url(./fanush.jpg) no-repeat top center;
+    background-position: cover;
+    background-size: cover;
+    padding: 240px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.banner::before{
+    content: "";
+    background: #005d4a86;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    }
+.banner h1{
+    display: inline-block;
+    color: white;
+    font-size: 53px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner p{
+    color: white;
+    margin: 20px 0;
+    font-size: 21px;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.banner a{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px 19px;
+    color: beige;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin-top: 36px;
+}
+/* our */
+.our{
+    text-align: center;
+    margin: 50px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.our h1{
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: rgb(121, 115, 115);
+}
+.our p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 17px;
+}
+
+/* service */
+.service{
+    margin: 71px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.service .design{
+    float: left;
+    width: 24%;
+    margin: 0 6px;
+}
+.service .design span{
+    font-size: 38px;
+    color: #119286;
+}
+.service .design h3{
+    font-size: 22px;
+    margin: 25px 0;
+    color: #808080f0;
+}
+.service .design p{
+    color: #808080f0;
+    font-size: 15px;
+}
+
+/* about */
+.about{
+    text-align: center;
+    color: #000000bd;
+    border-top: 2px solid #15a288;
+    font-family: 'Roboto', sans-serif;
+}
+.about h1{
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.about p{}
+
+/* container */
+.container{
+    margin-top: 60px;
+    
+}
+.container .left{
+    float: left;
+    width: 40%;
+}
+.container .right{
+    float: right;
+    width: 58%;
+}
+.container .right .web{
+    color: #888484;
+}
+.container .web h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+  
+}
+.container .web {
+    color: #888484;
+    margin-bottom: 25px;
+}
+.container .web p{
+    max-width: 700px;
+}
+
+
+/* contact us */
+.footer-container{
+    background: #ecececca;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+    text-align: center;
+}
+.contact h1{
+    font-size: 37px;
+    margin-bottom: 31px;
+    margin-top: 55px;
+    display: inline-block;
+    font-weight: 100;
+}
+.contact-us{}
+.contact-us .web{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    margin-top: 53px;
+    margin-bottom: 57px;
+}
+.contact-us .web span{
+    color: #14b396;
+    font-size: 24px;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+.contact-us .web p{
+
+}
+
+
+/* footer */
+.footer{
+    background: rgb(5, 116, 97);
+}
+.footer ul{
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+    color: beige;
+    font-size: 20px;
+    padding: 11px;
+}
+
+/* last */
+.last{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(30, 32, 36);
+    text-align: center;
+    padding: 10px 0;
+}
+.last p{
+    color: rgb(126, 123, 123);
+}

@@ -1,0 +1,344 @@
+@media all and ( max-width:1400px ) {
+    .fixed-width {
+        width: 100%!important;
+      
+        max-width: 100%;
+        text-align: center;
+    }
+}
+.clearfix{
+    clear: inherit;
+}
+@media all and ( max-width:1230px ) {
+  
+    .menu ul li a {
+      
+        font-size: 18px;
+        
+        padding: 0 14px;
+   
+    }
+    .container .left {
+       
+        width: 509px;
+        margin: auto;
+    }
+    .container .left img {
+        border-radius: 10px;
+    }
+    .menu ul {
+       
+        padding: 0 35px;
+    }
+    .header .logo {
+     
+        text-align: center;
+    }
+    .service .design {
+        
+        width: 48%;
+        margin: 19px 6px;
+    }
+    .container .left {
+        width: 509px;
+        margin: auto;
+        float: inherit;
+    }
+    .container .right {
+       
+        width: 100%;
+        text-align: center;
+    }
+    .container .web {
+      
+        margin-top: 42px;
+        padding: 0 29px;
+    }
+    .container .web p {
+        max-width: 100%;
+    }
+    .container .web h3 {
+        font-size: 30px;
+       
+    }
+}
+@media all and ( max-width:1200px ) {
+  
+    .header .logo {
+       
+        width: 100%;
+    }
+    .menu {
+     
+        width: 100%;
+      }
+    .menu ul {
+        text-align: center;
+        margin-top: 4px;
+    }
+}
+@media all and ( max-width:992px ) {
+  
+    .header .logo {
+       
+        width: 100%;
+    }
+    .menu {
+     
+        width: 100%;
+      }
+    .menu ul {
+        text-align: center;
+        margin-top: 4px;
+    }
+    .banner h1 {
+       
+        font-size: 42px;
+    
+    }
+    .banner p {
+       
+        margin: 8px 0;
+        font-size: 16px;
+       
+    }
+    .banner a {
+       
+        margin-top: 21px;
+    }
+    .banner {
+      padding: 190px 0;
+    }
+    .service .design p {
+       
+        font-size: 12px;
+    }
+    .service .design h3 {
+        font-size: 19px;
+        margin: 19px 0;
+      
+    }
+    .service .design span {
+        font-size: 31px;
+       
+    }
+}
+@media all and ( max-width:673px ) {
+    .service .design {
+        width: 100%;
+      
+    }
+    .service .design span {
+        font-size: 48px;
+    }
+    .service .design h3 {
+        font-size: 28px;
+    }
+    .service .design p {
+        font-size: 19px;
+    }
+    .our h1 {
+        font-size: 33px;
+      
+    }
+    .our p {
+      
+        font-size: 15px;
+    }
+    .banner h1 {
+        font-size: 39px;
+    }
+    .banner p {
+        font-size: 14px;
+    }
+    .banner a {
+        margin-top: 21px;
+        font-size: 13px;
+    }
+    .about h1 {
+        margin-top: 33px;
+        margin-bottom: 18px;
+        font-size: 27px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+    .about {
+    
+        margin-bottom: -19px;
+    }
+    .container .web {
+        margin-bottom: -20px;
+    }
+}
+@media all and ( max-width:568px ) {
+    .menu ul {
+        padding: 0 28px;
+    }
+    .menu ul li a {
+        font-size: 15px;
+        padding: 0 11px;
+    }
+    .banner {
+        padding: 108px 0;
+    }
+    .banner h1 {
+        font-size: 36px;
+    }
+    .banner p {
+        font-size: 13px;
+    }
+    .our h1 {
+        font-size: 30px;
+    }
+    .our p {
+        font-size: 13px;
+    }
+    .our {
+        
+        margin: 28px 0;
+    
+    }
+    .service {
+        margin: 16px 0;
+      
+    }
+    .service .design span {
+        font-size: 36px;
+    }
+      .contact h1 {
+        font-size: 34px;
+        margin-bottom: 17px;
+        margin-top: 32px;
+       
+    }
+    .contact p {
+        font-size: 14px;
+    }
+    .contact-us {
+        margin-top: -19px;
+        margin-bottom: -19px;
+    }
+    .service .design h3 {
+        font-size: 25px;
+    }
+    .service .design p {
+        font-size: 15px;
+    }
+    .container .left img {
+      
+        width: 200px;
+        
+        height: 200px;
+        border-radius: 50%;
+        
+    }
+    .container .left {
+        
+        margin-left: 140px;
+    }
+    .container .web p {
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .container .left {
+        margin-left: 0;
+        text-align: center!important;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media all and ( max-width:460px ) {
+    .menu ul {
+        padding: 0 28px;
+    }
+    
+    .menu ul li a {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+    .banner {
+        padding: 120px 0;
+      }
+      .banner h1 {
+        font-size: 29px;
+    }
+    .banner p {
+        
+        font-size: 11px;
+    }
+    .banner a {
+        margin-top: 15px;
+        padding: 6px 11px;
+    }
+    .our p {
+        font-size: 13px;
+    }
+    .our h1 {
+        font-size: 31px;
+    }
+    .service .design h3 {
+        font-size: 26px;
+    }
+    .service .design p {
+        font-size: 13px;
+    }
+    .menu ul li {
+      
+        margin-left: -15px;
+        
+    }
+    .contact-us .web p {
+        font-size: 13px;
+    }
+    .contact-us .web span {
+   
+        font-size: 20px;
+      
+    }
+    .footer ul li {
+    
+        font-size: 18px;
+        padding: 11px;
+       
+        padding-top: 0;
+    }
+    .container .left {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media all and ( max-width:350px ) {
+    .our p {
+        font-size: 15px;
+    }
+    .about p {
+        font-size: 15px;
+    }
+    .contact p {
+        font-size: 15px;
+    }
+    .contact-us .web {
+        
+        width: 100%;
+       
+    }
+    .contact-us .web {
+     
+        margin: 15px 0 30px 0;
+    }
+    .contact-us .web span {
+        font-size: 25px;
+    }
+    .contact-us {
+        margin-top: 12px;
+        margin-bottom: -19px;
+    }
+}
+@media all and (max-width:327px) {
+    .menu ul li a {
+        font-size: 13px;
+      
+    }
+}
